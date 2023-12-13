@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9cb569a95a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/IIT_Madras_Logo.svg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Education</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>IITM BS Student</p>
+                <h1>I'M <span>Mohit Mahur</span> <br>from Uttar Pradesh</h1>
+            </div>
+        </div>
+    </div>
+
+ <!-- ------------About---------------------------------------------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/M pic.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi My Name is Mohit Mahur. I am doing BS from IIT Madras. 
+                        I also Done My Bsc from
+                        CCSU university meerut
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="Opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="Opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="Opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>DATA SCIENCE</span><br>Python</li>
+                            <li><span>PROGRAMMING</span><br>Java</li>
+                            <li><span>DATA ANALYTIC</span><br>SQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Basic Java</span><br>Object Oreinted Java</li>
+                            <li><span>SQL</span><br>BASCI SQL</li>
+                            <li><span>Microsof azrue</span><br>Basc certificate</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>12 from</span><br>CBSE</li>
+                            <li><span>BSC </span><br>Maths</li>
+                            <li><span>BS</span><br>Programming</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+<!-- -------------------services----------------------------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Dev</h2>
+                <p>
+                    Hi, I am the Web Developer.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Data science</h2>
+                <p>
+                    Hi, I am Data science.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>UI/UX</h2>
+                <p>
+                    Hi, I am UI/UX designer
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+</div>
+<!-- ...................porfolio....................................... -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/web-application.jpg">
+                <div class="layer">
+                    <h3>Web App</h3>
+                    <p>This is Web Application build by me</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/what-is-graphic-design-header-1200.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Baisc Music Streaming app</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/why.png">
+                <div class="layer">
+                    <h3>BDM Project</h3>
+                    <p>Business Data Managment Project</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+
+</div>
+
+<!-- .................contact...................................................... -->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-sharp fa-solid fa-paper-plane"></i> mohitmahur8973@gmail.com</p>
+                <p> <i class="fa-solid fa-phone-volume"></i> 9675568973</p>
+                <div class="social-icon">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/22F1000344_BDM_Authorizationletter.pdf" download class="btn btn2">Dowonload CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id = "msg"></span>
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright @MohitMahur.<i class="fa-solid fa-heart"></i></p>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- .................script part.................................................................. -->
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function Opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzUzlcbmaArAUaovGtiMhHNaobraSoauY0WF_nJuEigXo_ldhQQSaREQgN2K3DqAa4QKQ/exec'
+        
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent Successsfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
